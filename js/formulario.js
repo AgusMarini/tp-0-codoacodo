@@ -9,14 +9,40 @@ const expresiones = {
 	telefono: /^\d{7,14}$/ // 7 a 14 numeros.
 }
 const validarFormulario = () => {
-    console.log('se ejecuto');
+   switch (e.target.name) {
+    case "usuario":
+        if(expresiones.usuario.test(e.target.value)){
+            document.getElementById('grupo__usuario').classList.remove('formulario__grupo-incorrecto');  
+            document.getElementById('grupo__usuario').classList.add('formulario__grupo-correcto');  
+        } else {
+            document.getElementById('grupo__usuario').classList.add('formulario__grupo-incorrecto');
+        }
+        
+        break;
+    case "nombre":
+        
+        break;
+    case "password":
+        
+        break;
+    case "password2":
+        
+        break;
+    case "correo":
+        
+        break;
+    case "telefono":
+        
+        break;
+
+   }
  
 }
 
 inputs.forEach((input) => {
-    console.log('se ejecuto');
-    input.addEventListener('keyup', validarFormulario);
-    input.addEventListener('blur', validarFormulario);
+
+ input.addEventListener('keyup', validarFormulario);
+ input.addEventListener('blur', validarFormulario);
  })
 
 
