@@ -8,10 +8,10 @@ const expresiones = {
 	correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
 	telefono: /^\d{7,14}$/ // 7 a 14 numeros.
 }
-const validarFormulario = () => {
-   switch (e.target.name) {
+const validarFormulario = (event) => {
+   switch (event.target.name) {
     case "usuario":
-        if(expresiones.usuario.test(e.target.value)){
+        if(expresiones.usuario.test(event.target.value)){
             document.getElementById('grupo__usuario').classList.remove('formulario__grupo-incorrecto');  
             document.getElementById('grupo__usuario').classList.add('formulario__grupo-correcto');  
         } else {
@@ -46,7 +46,7 @@ inputs.forEach((input) => {
  })
 
 
-formulario:addEventListener('submit', (e) => {
+formulario.addEventListener('submit', (e) => {
  e.preventDefault();
 });
 
