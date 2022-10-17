@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+.mapa {
+
+	width: 100%;
+	height: 100%;
+}
+
+.cfoot h1 {
+	margin: 0;
+	font-weight: 300;
+	font-size: 2em;
+	line-height: .5;
+	margin: 0 auto;
+	padding: 1em;
+	text-align: center;
+    color: #000000;
+	background-color: #f8ae45;
+}
+
+.contacto-formu {
+   margin: 0 auto;
+    width: 100%;
+	height: 10%;
+}
+.ccuadro{
+	margin-bottom:10px;
+	width:100%;
+	height: 10%;
+}
+
+.contacto-formu-addon{
+	color:#f8ae45; 
+	float:left;
+	padding:8px;
+	width:8%;
+	background:#FFFFFF;
+	text-align:center;	
+}
+
+.contacto-formu-campo {
+	color:#000000; 
+	background:#FFFFFF;
+	border:none;
+	padding:15.5px;
+	width:91.9%;
+	display:block;
+	font-family: 'Lato',Arial,sans-serif;
+	font-size:14px;
+}
+
+.contacto-formu-campo {
+	font-family: 'Lato',Arial,sans-serif;
+}
+.cboton{
+	display:block;
+	border:none;
+	background:#f8ae45;
+	color:#FFFFFF;
+	padding:12px 25px;
+	cursor:pointer;
+	text-decoration:none;
+	font-weight:bold;
+}
+.cboton:hover{
+	background:#000000;
+
+}
+.column {
+	float: left;
+	width: 70%;
+	padding: 10px;
+	height: 300px; 
+	background-color:#aaa;
+
+  }
+  .column2 {
+	float: right;
+	width: 30%;
+	padding: 10px;
+	height: 300px; 
+	text-align: left;
+	margin-left: 0px;
+  }  
+  .column3 {
+	float: right;
+	width: 50%;
+	padding: 10px;
+	height: 300px; 
+	text-align: left;
+	margin-left: 0px;
+  }  
+
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
