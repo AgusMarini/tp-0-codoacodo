@@ -18,6 +18,9 @@
 	background-color: #f8ae45;
 }
 
+.cfoot{
+	width: 100%;
+}
 .contacto-formu {
    margin: 0 auto;
     width: 100%;
@@ -66,45 +69,39 @@
 	background:#000000;
 
 }
-.column {
-	float: left;
-	width: 70%;
-	padding: 10px;
-	height: 300px; 
-	background-color:#aaa;
 
-  }
-  .column2 {
+.flex-column2 {
 	float: right;
-	width: 30%;
 	padding: 10px;
-	height: 300px; 
 	text-align: left;
 	margin-left: 0px;
 	background-color:#bbb;
-  }  
-  .column3 {
-	float: right;
-	width: 50%;
-	padding: 10px;
-	height: 300px; 
-	text-align: left;
-	margin-left: 0px;
-  }  
+} 
 
-  .row:after {
+
+.flex-row{
+	display: flex;
+	flex-flow: row wrap;
+	align-content: stretch;
+}
+ 
+.flex-row:after {
 	content: "";
 	display: table;
 	clear: both;
-  }
+
+}
+
   
 @media screen and (max-width: 768px){ 
 
-	.column {
+	.flex-column {
 		width: 100%;
 	}
-	.column2 {
+	.flex-column2 {
 		width: 100%;
 	}
-
+	.flex-column3 {
+		width: 100%;
+	}
 }
