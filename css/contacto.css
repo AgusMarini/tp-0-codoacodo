@@ -81,6 +81,7 @@
 	height: 300px; 
 	text-align: left;
 	margin-left: 0px;
+	background-color:#bbb;
   }  
   .column3 {
 	float: right;
@@ -96,3 +97,14 @@
 	display: table;
 	clear: both;
   }
+  
+@media screen and (max-width: 768px){ 
+
+	.column {
+		width: 100%;
+	}
+	.column2 {
+		width: 100%;
+	}
+
+}
