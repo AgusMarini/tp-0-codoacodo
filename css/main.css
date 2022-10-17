@@ -116,16 +116,3 @@
          font-size: 1.2rem;
          background: transparent;
      }
-
-     .contactBlock {
-        position: relative;
-        display: -moz-inline-stack;
-        display: inline-block;
-        zoom: 1;
-        *display: inline;
-        _height: 15px;
-        vertical-align: top;
-        height: 100%;
-        width: 33.33%;
-        font-size: 0;
-    }
