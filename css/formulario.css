@@ -8,14 +8,15 @@ body {
 main {
     max-width: 800px;
     width: 90px;
-    margin
+    margin:auto;
+    padding: 40px;
 }
 
 
 
 
 .formulario {
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }

@@ -31,11 +31,11 @@
  
  }
  header{
-     background-color: black;
+     background-color: gray;
      color: white;
 
  }
- nav{
+ .nav{
     background-color: gray;
     color: white;
     border-radius: 5px;
