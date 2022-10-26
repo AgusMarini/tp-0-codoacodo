@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/tp-0-codoacodo/static/css/main.0149c3fc.css",
+    "main.js": "/tp-0-codoacodo/static/js/main.940e954d.js",
+    "static/js/787.70d68c4e.chunk.js": "/tp-0-codoacodo/static/js/787.70d68c4e.chunk.js",
+    "static/media/background.gif": "/tp-0-codoacodo/static/media/background.f04a601fa6175e5cf7ca.gif",
+    "static/media/rules.png": "/tp-0-codoacodo/static/media/rules.bb1ff3ffe230406051e8.png",
+    "static/media/fernanda.jpeg": "/tp-0-codoacodo/static/media/fernanda.f46455790fc2fd6a0fc9.jpeg",
+    "static/media/agustina.jpeg": "/tp-0-codoacodo/static/media/agustina.dcc92110563547ae72e7.jpeg",
+    "static/media/surfboards.jpg": "/tp-0-codoacodo/static/media/surfboards.5f072f9afca98e509cf5.jpg",
+    "static/media/matias.jpeg": "/tp-0-codoacodo/static/media/matias.56530eb7e83a0e38c4bd.jpeg",
+    "index.html": "/tp-0-codoacodo/index.html",
+    "main.0149c3fc.css.map": "/tp-0-codoacodo/static/css/main.0149c3fc.css.map",
+    "main.940e954d.js.map": "/tp-0-codoacodo/static/js/main.940e954d.js.map",
+    "787.70d68c4e.chunk.js.map": "/tp-0-codoacodo/static/js/787.70d68c4e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0149c3fc.css",
+    "static/js/main.940e954d.js"
+  ]
+}
