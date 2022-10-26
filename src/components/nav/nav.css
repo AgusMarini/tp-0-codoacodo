@@ -1,0 +1,30 @@
+nav {
+  overflow: hidden;
+}
+
+nav .navItem {
+  float: left;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 15px;
+  border-radius: 10px;
+  margin-top: 0.5%;
+}
+
+nav .navItem:hover {
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  nav .navItem {
+    font-size: 12px;
+  }
+
+  nav .navItem i {
+    display: none;
+  }
+}

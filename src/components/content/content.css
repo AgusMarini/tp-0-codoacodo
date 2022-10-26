@@ -1,0 +1,9 @@
+.content {
+  transition: margin-left  0.5s, width 0.5s;
+  margin-left: 0;
+  width: 100%;
+}
+
+.moved {
+  margin-left: 20%;
+}
